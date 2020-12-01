@@ -1,7 +1,6 @@
 const spot = { name: 'spot', age: 5, weight: '20 lbs' };
 
-const getName = obj => {
-    const { name } = obj
+const getName = ({ name, age, weight }) => {
     return name
 }
 
